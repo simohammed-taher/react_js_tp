@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-
-function App() {
+// import ValueFormConsole from './components/ValueFormConsole';
+// import ValueFormAdd from './components/ValueFormAdd';
+// import Props from './components/Props';
+// import DatePicker from './components/DatePicker';
+// import Genre from './components/Genre';
+// import Select from './components/Select';
+// import MultiSelect from './components/MultiSelect';
+// import Checkbox from './components/Checkbox';
+// import OnOff from './components/OnOff';
+// import ImgSlider from './components/ImgSlider';
+// import TextEditor from './components/TextEditor';
+// import GetApi from './components/GetApi';
+export default function App() {
+  //  const [names, setName] = useState(123123123123123123)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <ValueFormConsole /> */}
+      {/* <ValueFormAdd /> */}
+      {/* <Props name={names} /> */}
+      {/* <DatePicker /> */}
+      {/* <Genre /> */}
+      {/* <Select /> */}
+      {/* <MultiSelect /> */}
+      {/* <Checkbox /> */}
+      {/* <OnOff /> */}
+      {/* <ImgSlider /> */}
+      {/* <TextEditor /> */}
+      {/* <GetApi /> */}
     </div>
   );
 }
-
-export default App;
