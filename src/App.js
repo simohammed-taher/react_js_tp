@@ -12,6 +12,9 @@ import './App.css';
 // import ImgSlider from './components/ImgSlider';
 // import TextEditor from './components/TextEditor';
 // import GetApi from './components/GetApi';
+// import FormValid from './components/FormValid';
+// import Routing from './components/Routing';
+import AddDynamic from './components/AddDynamic';
 export default function App() {
   //  const [names, setName] = useState(123123123123123123)
   return (
@@ -28,6 +31,9 @@ export default function App() {
       {/* <ImgSlider /> */}
       {/* <TextEditor /> */}
       {/* <GetApi /> */}
+      {/* <FormValid /> */}
+      {/* <Routing /> */}
+      <AddDynamic />
     </div>
   );
 }
