@@ -1,20 +1,20 @@
-# [Projet d'exercices de base en React JS]
+# Projet d'exercices de base en React JS
 
 Ce projet contient plusieurs exercices de base pour apprendre et pratiquer React JS. Les exercices couvrent divers aspects de React tels que les composants, l'état, les props, et les événements. Ce projet est idéal pour les débutants en React JS qui souhaitent renforcer leurs compétences.
 
 ## Table of Contents
 
-- [Installation](#Pour commencer, clonez le dépôt et installez les dépendances :
-git clone 
+- [Installation]#Pour commencer, clonez le dépôt et installez les dépendances :
+```git clone ```
 
-cd 
+cd react_js_tp
 npm install
 
-)
-- [Utilisation](#Lancez l'application en mode développement :
-npm start
 
-)
+- [Utilisation]#Lancez l'application en mode développement :
+```npm start```
+
+
 - [Available Scripts](#available-scripts)
 - [Contributing](#contributing)
 - [License](#license)
@@ -40,7 +40,7 @@ Licence
 Ce projet est sous licence MIT - voir le fichier LICENSE pour plus de détails.
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/simohammed-taher/react_js_tp
 cd your-project
-npm install
+npm install```
 # react_js_tp
