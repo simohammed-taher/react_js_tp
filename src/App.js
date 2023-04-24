@@ -14,7 +14,13 @@ import './App.css';
 // import GetApi from './components/GetApi';
 // import FormValid from './components/FormValid';
 // import Routing from './components/Routing';
-import AddDynamic from './components/AddDynamic';
+// import AddDynamic from './components/AddDynamic';
+// import LocalStorage from './components/LocalStorage';
+// import LoginWithLocalStorage from './components/LoginWithLocalStorage';
+// import HideAndShowPassword from './components/HideAndShowPassword';
+// import GoogleMap from './components/GoogleMap';
+import CRUD from './components/CRUD';
+
 export default function App() {
   //  const [names, setName] = useState(123123123123123123)
   return (
@@ -33,7 +39,12 @@ export default function App() {
       {/* <GetApi /> */}
       {/* <FormValid /> */}
       {/* <Routing /> */}
-      <AddDynamic />
+      {/* <AddDynamic /> */}
+      {/* <LocalStorage /> */}
+      {/* <LoginWithLocalStorage /> */}
+      {/* <HideAndShowPassword /> */}
+      {/* <GoogleMap /> */}
+      <CRUD />
     </div>
   );
 }
