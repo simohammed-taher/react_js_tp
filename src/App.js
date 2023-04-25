@@ -19,7 +19,7 @@ import './App.css';
 // import LoginWithLocalStorage from './components/LoginWithLocalStorage';
 // import HideAndShowPassword from './components/HideAndShowPassword';
 // import GoogleMap from './components/GoogleMap';
-import CRUD from './components/CRUD';
+// import CRUD from './components/CRUD';
 
 export default function App() {
   //  const [names, setName] = useState(123123123123123123)
@@ -44,7 +44,7 @@ export default function App() {
       {/* <LoginWithLocalStorage /> */}
       {/* <HideAndShowPassword /> */}
       {/* <GoogleMap /> */}
-      <CRUD />
+      {/* <CRUD /> */}
     </div>
   );
 }
