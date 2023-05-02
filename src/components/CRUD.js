@@ -33,17 +33,15 @@ function CRUD() {
         <div>
             <h1>CRUD Insert, Update and Delete</h1>
             <input value={name} onChange={(e) => setName(e.target.value)} />
-            {!show ? <button onClick={handleAdd}>Add</button> :
-                <button onClick={handleUpdate}>Update</button>}
-
-            {
-                allData.map((val, i) =>
-                    <div>
-                        <h1>{val}</h1>
-                        <button className="edit" onClick={() => handleEdit(i)} >Edit</button>
-                        <button className="delete" onClick={() => handleDelete(i)}>Delete</button>
-                    </div>
-                )
+            <button onClick={handleAdd}>Add</button>
+            <button onClick={handleUpdate}>Update</button>
+            {allData.map((val, i) =>
+                <div>
+                    <h1>{val}</h1>
+                    <button className="edit" onClick={() => handleEdit(i)} >Edit</button>
+                    <button className="delete" onClick={() => handleDelete(i)}>Delete</button>
+                </div>
+            )
             }
         </div>
     );

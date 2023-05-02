@@ -20,7 +20,9 @@ import './App.css';
 // import HideAndShowPassword from './components/HideAndShowPassword';
 // import GoogleMap from './components/GoogleMap';
 // import CRUD from './components/CRUD';
-
+// import DemoGraph from './components/DemoGraph';
+// import ImageUpload from './components/ImageUpload';
+import CopyText from './components/CopyText';
 export default function App() {
   //  const [names, setName] = useState(123123123123123123)
   return (
@@ -45,6 +47,9 @@ export default function App() {
       {/* <HideAndShowPassword /> */}
       {/* <GoogleMap /> */}
       {/* <CRUD /> */}
+      {/* <DemoGraph /> */}
+      {/* <ImageUpload /> */}
+      <CopyText />
     </div>
   );
 }
