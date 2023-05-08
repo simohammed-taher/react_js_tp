@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+import './DarkToLight.css';
+// import InputWIthSearch from './components/InputWIthSearch';
+// import TranslationEnglishToArab from './components/TranslationEnglishToarab';
+// import SignUpUi from './components/SignUpUi';
 // import ValueFormConsole from './components/ValueFormConsole';
 // import ValueFormAdd from './components/ValueFormAdd';
 // import Props from './components/Props';
@@ -22,7 +26,10 @@ import './App.css';
 // import CRUD from './components/CRUD';
 // import DemoGraph from './components/DemoGraph';
 // import ImageUpload from './components/ImageUpload';
-import CopyText from './components/CopyText';
+// import CopyText from './components/CopyText';
+// import DarkToLight from './components/DarkToLight';
+// import InputColorPicker from './components/InputColorPicker';
+import QuizApp from './components/QuizApp';
 export default function App() {
   //  const [names, setName] = useState(123123123123123123)
   return (
@@ -49,7 +56,13 @@ export default function App() {
       {/* <CRUD /> */}
       {/* <DemoGraph /> */}
       {/* <ImageUpload /> */}
-      <CopyText />
+      {/* <CopyText /> */}
+      {/* <DarkToLight /> */}
+      {/* <TranslationEnglishToArab /> */}
+      {/* <SignUpUi /> */}
+      {/* <InputWIthSearch /> */}
+      {/* <InputColorPicker /> */}
+      <QuizApp />
     </div>
   );
 }

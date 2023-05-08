@@ -1,0 +1,30 @@
+{
+    "english": {
+        "Title": "How are you?",
+        "Description": "Translate web content introduction"
+    },
+    "arabe": {
+        "Title": "كيف حالك يا صديقي؟",
+        "Description": "ترجمة المحتوى على الويب باللغة العربية الفصحى"
+    },
+    "darija": {
+        "Title": "كيفا داير أصحاب كولشي بيخير؟",
+        "Description": "هادي هدرة بالدارجة المغربية"
+    },
+    "francais": {
+        "Title": "Comment ça va?",
+        "Description": "Introduction à la traduction de contenu web"
+    },
+    "espagnol": {
+        "Title": "¿Cómo estás?",
+        "Description": "Introducción a la traducción de contenido web"
+    },
+    "allemand": {
+        "Title": "Wie geht es Ihnen?",
+        "Description": "Einführung in die Übersetzung von Webinhalten"
+    },
+    "italien": {
+        "Title": "Come stai?",
+        "Description": "Introduzione alla traduzione di contenuti web"
+    }
+}
